@@ -1,0 +1,14 @@
+Source: rpcd
+Section: devel
+Priority: optional
+Maintainer: Luka Perkov <luka.perkov@sartura.hr>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.4
+Homepage: http://nbd.name/gitweb.cgi?p=luci2/rpcd.git
+Vcs-Git: git://nbd.name/luci2/rpcd.git
+Vcs-Browser: http://nbd.name/gitweb.cgi?p=luci2/rpcd.git;a=summary
+
+Package: rpcd
+Architecture: amd64 i386
+Depends: libubox, ubus, uci
+Description: OpenWrt ubus RPC backend server
